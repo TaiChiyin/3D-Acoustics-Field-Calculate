@@ -1,0 +1,37 @@
+{
+  "description": "Combined refinement on exact shared receiver locations; phase is not fitted.",
+  "Kraken": {
+    "relativeComplexError": 0.00031057123806265937,
+    "coherence": 0.99999991629782148,
+    "medianAbsoluteTLchangeDb": 0.0015106201171875,
+    "rmsTLchangeDb": 0.0045540196370750857,
+    "azimuthRelativeRms": 0,
+    "relativeComplexTolerance": 0.01,
+    "passed": true,
+    "baseResult": "D:\\project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Kraken\\results\\verify_20260929_011220_186_base\\field3d.mat",
+    "refinedResult": "D:\\project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Kraken\\results\\verify_20260929_011220_186_fine\\field3d.mat"
+  },
+  "Krakenc": {
+    "relativeComplexError": 0.00014189940481942835,
+    "coherence": 0.99999998005045776,
+    "medianAbsoluteTLchangeDb": 0.0003814697265625,
+    "rmsTLchangeDb": 0.0018125395105690687,
+    "azimuthRelativeRms": 0,
+    "relativeComplexTolerance": 0.01,
+    "passed": true,
+    "baseResult": "D:\\project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Krakenc\\results\\verify_20260929_011220_186_base\\field3d.mat",
+    "refinedResult": "D:\\project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Krakenc\\results\\verify_20260929_011220_186_fine\\field3d.mat"
+  },
+  "Bellhop3D": {
+    "relativeComplexError": 0.00089779536337821007,
+    "coherence": 0.99999948651280346,
+    "medianAbsoluteTLchangeDb": 0.0018157958984375,
+    "rmsTLchangeDb": 0.011564160603936939,
+    "azimuthRelativeRms": 3.0101528884738449E-8,
+    "relativeComplexTolerance": 0.1,
+    "passed": true,
+    "baseResult": "D:\\project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Bellhop3D\\results\\verify_20260929_011220_186_base\\field3d.mat",
+    "refinedResult": "D:\\project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Bellhop3D\\results\\verify_20260929_011220_186_fine\\field3d.mat"
+  },
+  "allPassed": true
+}

@@ -2,8 +2,16 @@ function report=verify_3d_fields()
 %VERIFY_3D_FIELDS Numerical verification on a smaller common receiver grid.
 % Refines the modal mesh and both beam fans + integration step. It reports
 % actual errors; cross-model agreement alone is not a physical validation.
+%
+% The receiver grid keeps the default 5 m spacing instead of coarsening it.
+% BELLHOP3D traces a discrete beam fan, and its beam footprints march in range
+% with depth; sampling that structure on a coarser grid lands between beams and
+% returns exact zeros (a 20 m / 250 m grid gave 43.6% exact zeros and a
+% meaningless 0.96 azimuthal RMS on an axisymmetric environment). The 5 m grid
+% has no exact zeros, so the error figures below describe solver convergence
+% rather than sampling artifacts.
 c=field3d_config(); c.makePlots=false;
-c.rangeM=500:250:3000; c.depthM=10:20:190; c.bearingDeg=0:30:330;
+c.bearingDeg=0:30:330;
 tag=['verify_' char(datetime('now','Format','yyyyMMdd_HHmmss_SSS'))];
 c.runTag=[tag '_base'];
 base=run_all_3d_fields(c);

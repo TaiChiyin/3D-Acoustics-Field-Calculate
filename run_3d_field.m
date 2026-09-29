@@ -26,8 +26,14 @@ if ~strcmp(model,'Bellhop3D')
 end
 native = f3_read_shd(fullfile(outDir,'case.shd'));
 f3_check_axes(native,cfg,model);
-% Native layout: bearing x source depth x receiver depth x range.
-p = permute(native.pressure,[3 4 1 2]);
+% Native layout: bearing x source depth x receiver depth x range. Rebuild the
+% shape explicitly so a squeezed singleton dimension cannot silently reorder the
+% array: permute() drops dimensions when given more indices than the array has,
+% which would move the bearing axis into the range position.
+nativePressure = reshape(native.pressure, ...
+    [numel(native.bearingDeg) numel(native.sourceDepthM) ...
+     numel(native.depthM) numel(native.rangeM)]);
+p = permute(nativePressure,[3 4 1 2]);
 if ~strcmp(model,'Bellhop3D')
     p = repmat(p,1,1,numel(cfg.bearingDeg));
 end
