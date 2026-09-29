@@ -1,0 +1,37 @@
+# ---- 运行产物：所有模型的结果目录 ----
+# 结构为 <Model>/results/<runTag>/，含 .shd/.mat/.fig/.png/.prt 等大文件。
+**/results/
+**/validation/*.mat
+**/latest_result.txt
+
+# ---- 本机 MATLAB 偏好与许可证材料 ----
+# .matlab_prefs/ 含 matlabPkey.p12、thisMatlab.pem 等私钥/证书文件，
+# 属于本机数据，禁止上传。
+.matlab_prefs/
+**/.matlab_prefs/
+.mathlab_pref/
+*.p12
+*.pem
+
+# ---- MATLAB 生成物 ----
+*.asv
+*.autosave
+*.m~
+*.slxc
+slprj/
+codegen/
+*.fig
+
+# ---- 编辑器 / 操作系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*~
+*.tmp
+
+# ---- 可选：不希望入库的本地测试目录 ----
+work/
+tmp/
+scratch/

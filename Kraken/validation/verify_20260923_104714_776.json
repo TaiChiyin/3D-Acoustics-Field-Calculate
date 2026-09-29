@@ -1,0 +1,37 @@
+{
+  "description": "Combined refinement on exact shared receiver locations; phase is not fitted.",
+  "Kraken": {
+    "relativeComplexError": 0.000305743017013151,
+    "coherence": 0.99999991412902456,
+    "medianAbsoluteTLchangeDb": 0.0013885498046875,
+    "rmsTLchangeDb": 0.0035035286500138636,
+    "azimuthRelativeRms": 0,
+    "relativeComplexTolerance": 0.01,
+    "passed": true,
+    "baseResult": "E:\\programs_and_project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Kraken\\results\\verify_20260923_104714_776_base\\field3d.mat",
+    "refinedResult": "E:\\programs_and_project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Kraken\\results\\verify_20260923_104714_776_fine\\field3d.mat"
+  },
+  "Krakenc": {
+    "relativeComplexError": 0.00015106420745972839,
+    "coherence": 0.99999997726586121,
+    "medianAbsoluteTLchangeDb": 0.0003643035888671875,
+    "rmsTLchangeDb": 0.0014008428037619637,
+    "azimuthRelativeRms": 0,
+    "relativeComplexTolerance": 0.01,
+    "passed": true,
+    "baseResult": "E:\\programs_and_project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Krakenc\\results\\verify_20260923_104714_776_base\\field3d.mat",
+    "refinedResult": "E:\\programs_and_project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Krakenc\\results\\verify_20260923_104714_776_fine\\field3d.mat"
+  },
+  "Bellhop3D": {
+    "relativeComplexError": 0.00067820230252806069,
+    "coherence": 0.99999978042356219,
+    "medianAbsoluteTLchangeDb": 0.00154876708984375,
+    "rmsTLchangeDb": 0.0058828373045849989,
+    "azimuthRelativeRms": 3.0701456510200374E-8,
+    "relativeComplexTolerance": 0.1,
+    "passed": true,
+    "baseResult": "E:\\programs_and_project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Bellhop3D\\results\\verify_20260923_104714_776_base\\field3d.mat",
+    "refinedResult": "E:\\programs_and_project\\matlab\\MFP\\project\\3D_Acoutics_Field_Calculate\\Bellhop3D\\results\\verify_20260923_104714_776_fine\\field3d.mat"
+  },
+  "allPassed": true
+}

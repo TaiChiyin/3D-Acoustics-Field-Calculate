@@ -1,0 +1,13 @@
+'KRAKENC manual coherent FIELD'
+'RA C'               ! Point source, adiabatic, omni, coherent
+9999                 ! Maximum number of available modes to include
+1                    ! Profile ranges km
+0 /
+11                   ! Receiver horizontal ranges km
+0.5 1.5 /
+1                    ! Source depth m
+25 /
+20                   ! Receiver depths m: 5:10:195
+5 195 /
+20                   ! Horizontal offsets m, one per receiver depth
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 /

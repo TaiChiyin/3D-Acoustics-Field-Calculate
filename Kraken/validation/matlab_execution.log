@@ -1,0 +1,87 @@
+Kraken: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Kraken\results\verify_20260923_104714_776_base
+Kraken complete: [10 11 12], 0.3 s
+Krakenc: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Krakenc\results\verify_20260923_104714_776_base
+Krakenc complete: [10 11 12], 0.3 s
+Bellhop3D: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Bellhop3D\results\verify_20260923_104714_776_base
+Bellhop3D complete: [10 11 12], 24.0 s
+Kraken: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Kraken\results\verify_20260923_104714_776_fine
+Kraken complete: [10 11 12], 0.2 s
+Krakenc: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Krakenc\results\verify_20260923_104714_776_fine
+Krakenc complete: [10 11 12], 0.2 s
+Bellhop3D: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Bellhop3D\results\verify_20260923_104714_776_fine
+Bellhop3D complete: [10 11 12], 186.4 s
+    description: 'Combined refinement on exact shared receiver locations; phase is not fitted.'
+         Kraken: [1x1 struct]
+        Krakenc: [1x1 struct]
+      Bellhop3D: [1x1 struct]
+      allPassed: 1
+
+Kraken: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Kraken\results\run_20260923_105046_615
+Kraken complete: [39 501 36], 0.2 s
+Krakenc: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Krakenc\results\run_20260923_105046_615
+Krakenc complete: [39 501 36], 0.2 s
+Bellhop3D: computing 500 Hz field -> E:\programs_and_project\matlab\MFP\project\3D_Acoutics_Field_Calculate\Bellhop3D\results\run_20260923_105046_615
+Bellhop3D complete: [39 501 36], 41.2 s
+compare_3d_fields.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 37
+     column: [32 42]
+
+plot_3d_field.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 27
+     column: [32 42]
+
+run_3d_field.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 92
+     column: [37 47]
+
+run_bellhop3d.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 4
+     column: [43 53]
+
+run_kraken_3d.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 4
+     column: [43 53]
+
+run_krakenc_3d.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 4
+     column: [43 53]
+
+f3_execute.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 5
+     column: [36 46]
+
+f3_read_shd.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 6
+     column: [35 45]
+
+f3_write_inputs.m
+         id: 'MSNU'
+    message: '此处之前隐藏了一条代码分析器消息，但该消息不再产生。'
+        fix: 1
+       line: 33
+     column: [35 45]
+

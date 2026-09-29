@@ -1,0 +1,20 @@
+# 文本文件统一使用 LF，避免 Windows/Linux 协作时的行尾噪音
+* text=auto eol=lf
+
+# MATLAB / Markdown / 原生输入文件按文本处理
+*.m    text eol=lf
+*.md   text eol=lf
+*.env  text eol=lf
+*.flp  text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+
+# 明确标记为二进制，禁止行尾转换与 diff
+*.exe  binary
+*.shd  binary
+*.mod  binary
+*.mat  binary
+*.fig  binary
+*.png  binary
+*.p12  binary
+*.pem  binary
